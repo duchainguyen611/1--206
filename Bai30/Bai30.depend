@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616813135 source:c:\code\c\1000baicode\bai30\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618123003 source:c:\code\c\1000baicode\bai96\main.c
+	<stdio.h>
+	<stdlib.h>
+
