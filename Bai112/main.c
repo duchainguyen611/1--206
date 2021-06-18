@@ -25,21 +25,15 @@ int main()
     scanf("%d",&x1);
     printf("\nNhap chieu rong:");
     scanf("%d",&y1);
-    for(int i=0;i<x1;i++){
-        printf(" * ");
-    }
     printf("\n");
-    for(int i=0;i<y1-2;i++){
+    for(int i=0;i<y1;i++){
         for(int j=0;j<x1;j++){
-            if(j==0||j==x1-1){
+            if(i==0||i==y1-1||j==0||j==x1-1){
                 printf(" * ");
             }else{
                 printf("   ");
             }
         }printf("\n");
-    }
-     for(int i=0;i<x1;i++){
-        printf(" * ");
     }
     return 0;
 }
